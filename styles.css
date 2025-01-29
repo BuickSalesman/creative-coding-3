@@ -1,0 +1,19 @@
+#squares-container {
+  width: 90vw;
+  height: 90vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-hole {
+}
+
+#left-square {
+}
+
+#right-hole {
+}
+#right-square {
+}
