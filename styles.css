@@ -1,6 +1,13 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #squares-container {
-  width: 90vw;
-  height: 90vh;
+  width: 90rem;
+  height: 75rem;
   background-color: aqua;
   display: flex;
   justify-content: center;
@@ -8,12 +15,30 @@
 }
 
 #left-hole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vw;
+  background-color: brown;
 }
 
 #left-square {
+  height: 15vh;
+  width: 15vw;
+  background-color: white;
 }
 
 #right-hole {
+  height: 30vh;
+  width: 30vw;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #right-square {
+  height: 15vh;
+  width: 15vw;
+  background-color: white;
 }
