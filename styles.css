@@ -21,6 +21,7 @@ body {
   height: 30vh;
   width: 30vw;
   background-color: brown;
+  margin: 20px;
 }
 
 #left-square {
@@ -36,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 #right-square {
   height: 15vh;
