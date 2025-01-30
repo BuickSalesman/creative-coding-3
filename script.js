@@ -80,8 +80,12 @@ function checkIsSquareRight() {
   if (isSquareRight === true) {
     rightSquare.style.backgroundColor = "white";
     leftSquare.style.backgroundColor = "brown";
+    leftSquare.textContent = null;
+    rightSquare.textContent = `times passed: ${timesPassed}`;
   } else {
     rightSquare.style.backgroundColor = "green";
     leftSquare.style.backgroundColor = "white";
+    rightSquare.textContent = null;
+    leftSquare.textContent = `times passed: ${timesPassed}`;
   }
 }
